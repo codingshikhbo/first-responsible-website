@@ -81,3 +81,43 @@ nav ul li a:hover, nav ul li a.active{
         background: none;
     }
 }
+/* header code */
+header{
+    background-image: url("images/flower_tub.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/* main service section code  */
+.service-section{
+    background-color: darkcyan;
+    padding: 30px 0;
+}
+.service-section > h2{
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+    letter-spacing: 0.3em;
+}
+.service-card-parent{
+    width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.single-card{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+.single-card i{
+    font-size: 30px;
+
+}
+.single-card h2{
+    font-weight: bold;
+    padding: 10px 0;
+}

@@ -124,6 +124,39 @@ header{
     font-weight: bold;
     padding: 10px 0;
 }
+
+/* smart area section 2 */
+.second-section{
+    background-color:#6495ED;
+}
+.second-section >h2{
+    font-size: 30px;
+    text-align: center;
+    color: #DFFF00;
+    padding: 30px 0;
+    letter-spacing: 0.2em;
+}
+.smart-parent{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+    color: white;
+}
+.single-text h2{
+    padding: 10px 0;
+}
+.single-text a{
+    background-color:  #FFC300 ;
+    padding: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+
 @media only screen and (max-width: 688px) {
     .service-card-parent{
         width: 100%;
@@ -131,12 +164,35 @@ header{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 10px;
     }
+    .smart-parent{
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;
+        
+    }
+    .single-img img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
 }
+
+
+
 @media only screen and (min-width: 689px) and (max-width: 1099px) {
     .service-card-parent{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 15px;
+    }
+    .smart-parent{
+        display: inline-block;
+        margin-left: 60px;
+        margin-right: 60px;    
+    }
+    .single-img img{
+        width: 100%;
+        margin-bottom: 20px;
     }
 }

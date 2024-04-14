@@ -501,6 +501,14 @@ footer{
     .single-take{
         margin-bottom: 50px;
     }
+    /* take end  */
+    /* footer section start  */
+    .footer-parent{
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;
+        gap: 20px;
+    }
 
     
 }
@@ -577,5 +585,11 @@ footer{
     .single-take{
         margin-bottom: 50px;
     }
-
+    /* take end  */
+    .footer-parent{
+        display: block;
+        margin-left: 60px;
+        margin-right: 60px;
+        gap: 30px;
+    }
 }

@@ -315,6 +315,7 @@ form .form-btn:hover{
 /* match area section start  */
 .match-section{
     background-color: #34495e;
+    padding: 100px 0;
 
 }
 .match-area-parent{
@@ -322,7 +323,6 @@ form .form-btn:hover{
     grid-template-columns: repeat(3, 1fr);
     margin-left: 200px;
     margin-right: 200px;
-    padding: 100px 0;
     gap: 40px;
 }
 .first-single-match h2{
@@ -383,6 +383,43 @@ form .form-btn:hover{
 .single-imgbox img{
     width: 100%;
 }
+/* footer section start  */
+footer{
+    background-color: #1F64C4;
+    padding: 100px 0 50px 0;
+}
+.footer-parent{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    gap: 50px;
+}
+.footer-mix{
+    width: 100%;
+}
+.footer-mix h5 span{
+    color: yellow;
+    font-size: 20px;
+}
+.footer-mix h5{
+    padding: 3px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+.single-footer-2 ul li{
+    margin: 5px;
+}
+.single-footer-2 ul li i{
+    margin: 0 5px;
+}
+.single-footer-3 a{
+    color: white;
+    background-color: indianred;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
 
 
 
